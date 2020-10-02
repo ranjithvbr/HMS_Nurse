@@ -1,0 +1,211 @@
+/*.MuiDialogTitle-root 
+{
+	padding:0px !important;
+}*/
+/* .MuiDialog-paperWidthSm {
+  width: 700px !important;
+} */
+.addmanage_nurses_details {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-between;
+}
+.details_mode {
+  color: #ccc;
+  font-family: "Roboto";
+  font-size: 2rem !important;
+  margin-bottom: 0rem !important;
+}
+.age_details {
+  color: #ccc;
+  font-size: 12px;
+  margin-bottom: 0px !important;
+  display: inline-flex;
+  width: 100%;
+}
+.package_details {
+  display: flex;
+  color: #ccc;
+  font-size: 15px;
+  width: 50%;
+  font-family: "Roboto";
+  justify-content: space-between;
+}
+
+.manage_nurse_image_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.manage_nurse_image {
+  width: 100%;
+  /* height: 100%; */
+  height: 97%;
+}
+.manage_nurse_image_div {
+  width: 100%;
+  height: auto;
+}
+.manage_nurse_image_div img{
+  /* height: 100%; */
+  width: 100%;
+}
+.divider {
+  padding: 20px !important;
+}
+.MuiDivider-root {
+  height: 2px !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+.addmanage_nurse_gridcontainer {
+  padding: 20px;
+}
+.package_details_list {
+  width: 100%;
+  display: inline-flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  color: black;
+  font-family: "Roboto" !important;
+  font-size: 11px;
+}
+.package_details_container {
+  display: flex;
+  width: 100%;
+  font-family: "Roboto";
+}
+/*  .MuiDialogTitle-root 
+{
+   padding:none !important;
+}*/
+
+.manage_nurse_detail {
+  text-align: left;
+  /* padding-bottom: 3%; */
+  font-size: 24px;
+  font-weight: 500;
+}
+.nurse_name_edit{
+  display: flex;
+  font-size: 15px;
+}
+.exp_text_edit{
+  font-size: 15px;
+  /* margin-left: 9px; */
+}
+.manage_nurse_popup_details .working_hour {
+  font-size: 16px;
+  /* padding-bottom: 5%;
+  padding-top: 5%; */
+}
+.manage_nurse_popup_details .nurse_working_hour_detail {
+  font-size: 15px;
+  width: 72%;
+}
+.manage_nurse_popup_details .working_time_detail {
+  width: 100%;
+  font-size: 13px;
+  padding-left: 0px !important;
+}
+.manage_nurse_popup_details .working_time_detail_skills {
+  padding-left: 0px !important;
+  font-size: 1vw;
+}
+
+.manage_nurse_popup_details .nurse_working_detail {
+  display: inline-flex;
+  width: 92%;
+}
+
+.icon_edit {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.icon {
+  font-size: 2.25rem !important;
+  fill: green !important;
+  margin-bottom: 3%;
+}
+.total {
+  padding: 3%;
+  width: 100%;
+}
+
+.manage_nurse_text {
+  padding-left: 3%;
+  width: 100%;
+  color: grey;
+}
+.nurse_name_edit .p{
+  margin-bottom:0px
+}
+.location_icon {
+  font-size: 1.75rem !important;
+}
+.call_icon {
+  font-size: 1.75rem !important;
+}
+
+.globe_icon {
+  font-size: 1.75rem !important;
+}
+
+.nurse_modal_button {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .btn-nurse {
+  font-size: 1.5rem !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  height: 30px;
+  border-bottom: none;
+  border: none;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  border-radius: 20px;
+} */
+
+.manage_nurse_close_icon {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+
+}
+/* .nurse_modal_button .btn-success {
+  padding-right: 20% !important;
+  padding-left: 20% !important;
+} */
+.eight_hrs_edit{
+  height: 31px;
+  width: 74px;
+  border-radius: 16px;
+  background-color: #28a745;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  /* margin-top: 5px; */
+  /* padding-bottom: 14px; */
+  margin-bottom: 7px;
+  margin-left: 15px;
+}
+.eight_text{
+  padding-top: 5px;
+}
+.cost_edit{
+  font-size: 13px !important;
+  margin: 0px;
+}
+/* .cost_edit {
+  margin-bottom:0.3rem !important;
+} */
+.btn_text {
+  text-align:center;
+  font-size: 13px;
+}

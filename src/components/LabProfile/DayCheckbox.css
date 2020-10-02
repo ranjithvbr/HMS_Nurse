@@ -1,0 +1,47 @@
+.checkbox_divider {
+  margin-bottom: 10px !important;
+  height: 2px !important;
+}
+.select_timepicker {
+  display: flex;
+  align-items: center;
+}
+.time- {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+.form_checkbox {
+  margin-left: 20px;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #86b149 !important;
+}
+.timepicker_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.dialog_contentdiv {
+  padding: 20px !important;
+  overflow-y: scroll;
+}
+.close_days {
+  font-size: 17px;
+  background-color: #da1f4a;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  position: relative;
+  top: 2px;
+}
+.addmore_hours {
+  color: #2196f3 !important;
+  font-size: 1.5rem;
+  font-family: "Roboto";
+}
+.label_timepicker_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,147 @@
+.transformed_text {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  transform: rotate(270deg);
+  top: 330px;
+  left: -65px;
+}
+.nurse_login_image_wrap {
+  width: 100%;
+  height: auto;
+}
+.nurse_login_image {
+  width: 100%;
+  height: auto;
+}
+.One_Mom_logo_login {
+  position: absolute;
+  top: 100px;
+  width: 100px;
+}
+.nurse_login_contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome_text {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #84af3f;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.nurse_email_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 16px;
+}
+.nurse_input_email {
+  width: 340px !important;
+  font-family: "Roboto" !important;
+}
+.nurse_pass_div {
+  width: 100%;
+  margin-left: 23px !important;
+}
+.nurse_input_pass {
+  width: 345px !important;
+  font-family: "Roboto" !important;
+}
+
+.nurse_login_wrap .MuiInputLabel-root {
+  font-family: "Roboto" !important;
+  font-size: 1.5rem;
+
+  color: rgb(151, 151, 151) !important;
+}
+.forget {
+  font-size: 1.5rem !important;
+}
+
+.nurse_email_div .MuiInputBase-input {
+  font-family: "Roboto" !important;
+  font-size: 1.5rem;
+  color: rgb(151, 151, 151) !important;
+  padding-right: 55px !important;
+}
+.nurse_login_wrap .MuiInput-underline:after {
+  border-bottom: 2px solid #979797;
+}
+.nurse_pass_div .MuiInputBase-input {
+  padding-right: 0px !important;
+  font-size: 1.5rem;
+  font-family: "Roboto" !important;
+  color: rgb(151, 151, 151) !important;
+}
+.nurse_email_icon {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+  position: relative;
+  right: 34px;
+  color: grey;
+  font-size: 2rem;
+}
+.nurse_forgot_pass {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto" !important;
+  color: #83af40;
+}
+.nurse_forgot_pass:hover {
+  text-decoration: underline;
+}
+.nurse_login_button_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.MuiButtonBase-root {
+  outline: none !important;
+}
+.nurse_login_button {
+  color: #fff !important;
+  width: 250px;
+  height: 50px;
+  box-shadow: 11px 23px 16px -26px black;
+
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  font-family: "Roboto" !important;
+  background-image: linear-gradient(to bottom, #85b33d, #9fef24);
+  border-radius: 50px !important;
+}
+
+.pass_eye_button:focus {
+  outline: none;
+}
+.pass_eye_button .MuiSvgIcon-root {
+  font-size: 2.25rem !important;
+}
+@media only screen and (max-width: 959px) {
+  .Login_image_grid {
+    display: none;
+  }
+  .nurse_login_contents {
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .One_Mom_logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+  }
+  .nurse_login_container {
+    display: inline-grid !important;
+  }
+  .nurse_login_grid {
+    justify-content: center;
+  }
+}

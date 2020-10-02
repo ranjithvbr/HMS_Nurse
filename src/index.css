@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/Font/Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto" !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* html {
+  font-family: "Roboto" !important;
+}
+code {
+  font-family: "Roboto" !important;
+}
+#root {
+  font-family: "Roboto" !important;
+}
+p {
+  margin-bottom: 2px;
+} */
+.Dialogmodal .MuiDialogTitle-root {
+  box-shadow: none;
+}
+
+body *::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+  transition: 0.3s ;
+}
+body *::-webkit-scrollbar-thumb {
+  background: #ADAAA8;
+  border-radius: 10px;
+}
+
+.dashboard_header {
+  padding: 10px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 5px 0px 0px;
+  opacity: 1;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dashboard_title {
+  font-size: 18px;
+  color: #86b149;
+  margin-top: 10px;
+  margin-left: 2%;
+}

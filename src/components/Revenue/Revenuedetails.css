@@ -1,0 +1,21 @@
+.cell_eye {
+  padding-left: 0px !important;
+}
+
+.revenueTotal{
+  float: right;
+  position: relative;
+  bottom: 94px;
+  right: 115px;
+  width: 211px;
+  background: #86b149;
+  height: 40px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  display: flex;
+  border-radius: 3px;
+  box-shadow: 1px 3px 5px 1px rgba(0,0,0,0.75);
+  font-weight: 600;
+}

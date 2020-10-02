@@ -1,0 +1,163 @@
+.modaldiv_profile .Dialogmodal .MuiDialogContent-dividers {
+  border-bottom: 0px !important;
+  border-top: 0px !important;
+  overflow: hidden;
+}
+.modaldiv_profile .Dialogmodal h6 {
+  color: #333;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+.modaldiv_profile .modaldiv .cancelbtn {
+  border-radius: 0;
+  background-color: #f1221a;
+  color: white;
+  box-shadow: 0;
+}
+.usercloseicon_title {
+  font-size: 2.5rem !important;
+  fill: #696565 !important;
+}
+.modaldiv_profile .Dialogmodal .MuiDialogTitle-root .Component-root-518 {
+  padding: 10px 10px 0px 10px !important;
+}
+.modaldiv_profile .MuiDialog-paperWidthSm {
+  max-width: 70% !important;
+}
+.modaldiv_profile .Dialogmodal .MuiDialogTitle-root {
+  box-shadow: 0px 0px 3.5px 0px #ccc;
+  /*border-bottom: 1px solid #ccc;*/
+}
+.modaldiv_profile .Dialogmodal .MuiIconButton-root:hover {
+  background-color: transparent;
+}
+.modaldiv_profile .Dialogmodal .closebtn {
+  background-color: rgb(201, 201, 201);
+  border-radius: 0px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  /* padding: 9px; */
+  margin-right: 10px;
+  color: #000;
+  font-size: 13px;
+  width: 90px;
+}
+.modaldiv_profile .Dialogmodal .createbtn {
+  background-color: #2580eb;
+  border-radius: 0px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  /* padding: 9px; */
+  margin-right: 10px;
+  color: #fff;
+  font-size: 13px;
+  width: 90px;
+}
+.modaldiv_profile .Dialogmodal .createbtn:hover {
+  background-color: #2580eb;
+}
+.Dialogmodal .DialogContent {
+  overflow-y: scroll;
+}
+.profile_image {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+}
+.profile_image_container {
+  display: flex;
+  width: 35%;
+  /* align-items: flex-end; */
+  /* justify-content: space-between; */
+}
+.profile_container {
+  display: flex;
+  /* justify-content:space-between; */
+}
+.profile_imagediv {
+  width: 10%;
+}
+.userbuttons_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.buttons_container:focus {
+  color: green;
+}
+.usercancel_button {
+  font-size: 1.25rem !important;
+  font-family: "Roboto" !important;
+  margin-right: 15px !important;
+}
+.userupload_button {
+  font-size: 1.25rem !important;
+  font-family: "Roboto" !important;
+  background-color: #2680eb !important;
+}
+.basic_details:hover {
+  color: green;
+}
+.basic_details:active {
+  color: green !important;
+}
+.basic_details {
+  padding: 0px 8px 0px 8px;
+  font-size: 1.5rem !important;
+  font-family: "Roboto" !important;
+}
+.tab_line {
+  color: #86b149 !important;
+  border-bottom: 3px solid #86b149;
+}
+.profile_container .ant-upload.ant-upload-select-picture-card {
+  background-color: #fff !important;
+  border: 0px !important;
+  width: 90px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  height: 90px !important;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12) !important;
+}
+.upload-img-circle {
+  border-radius: 50% !important;
+}
+.upload-icon {
+  font-size: 50px !important;
+  color: #86b149 !important;
+}
+.userbasic {
+  color: rgb(131 175 64) !important;
+}
+.userbasicdetails {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile_container .ant-upload {
+  padding: 0px !important;
+}
+.clearicon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* .modaldiv_profile .Dialogmodal .MuiDialogTitle-root 
+    {
+   padding: 16px 24px 0px 16px !important;
+    } */
+.closeicon_title {
+  font-size: 2rem !important;
+  color: black !important;
+}
+.upload-imguser-circle {
+  width: 100px !important;
+  border-radius: 50% !important;
+}
+@media only screen and (max-width: 768px) {
+  .profile_image_container {
+    width: 50%;
+  }
+}

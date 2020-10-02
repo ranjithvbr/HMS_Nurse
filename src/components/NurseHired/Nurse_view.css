@@ -1,0 +1,221 @@
+.dialog_nurse_eyeview .MuiDialog-paper {
+  padding: 20px;
+  overflow: scroll;
+}
+.nurse_view_image_childdiv {
+  width: 82%;
+  height: auto;
+}
+.nurse_view_image {
+  width: 100%;
+  /* box-shadow: 0px 0px 5px #333333a6; */
+}
+.nurse_view_contents_wrap {
+  margin-left: 20px;
+  font-family: "Roboto";
+}
+.nurse_view_wrap_container {
+  display: flex;
+  justify-content: space-between;
+}
+.nurse_view_name_wrap {
+  margin-top: 10px;
+  position: relative;
+  font-size: 1.5rem;
+  font-family: "Roboto";
+}
+.nurse_view_cancelbutton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.dutytime_container {
+  width: 16%;
+  font-family: "Roboto";
+}
+.nurse_modelcancel {
+  font-size: 1.5rem !important;
+  color: #ff0000e0 !important;
+  border: 1px solid #ff0000e0 !important;
+  font-family: "Roboto" !important;
+}
+.generalduties_details {
+  width: 100%;
+  border: 1px solid grey;
+  padding: 0px 0px 0px 20px;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  margin-top: 20px;
+}
+.genaeral_details {
+  font-size: 1.5rem;
+  /* color: rgb(180, 180, 180) !important; */
+  color: #33333;
+}
+.general_head {
+  color: #333333;
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+.generalduties_details_container {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  width: 100%;
+}
+.time-inhours {
+  border: 1px solid green;
+  border-radius: 20px;
+  /* width: 30%; */
+  height: 40px;
+  /* font-size: 15px; */
+  font-size: 14px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: rgb(13, 202, 89);
+}
+.road_dot {
+  margin-left: 3px;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+.nurse_view_name {
+  color: #333333;
+  font-size: 2rem;
+  font-family: "Roboto";
+}
+.nurse_view_age {
+  font-size: 1.5rem;
+}
+.nurse_divider_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.nurse_divider_1px {
+  height: 1px;
+  border-radius: 20%;
+  width: 100%;
+  background-color: #808080;
+}
+.nurse_view_name_wrap {
+  /* color: rgb(180, 180, 180) !important; */
+  color: #666666;
+  font-family: "Roboto" !important;
+}
+.nurse_view_subheader {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+.nurse_view_qualitiy {
+  width: 40%;
+  /* color: rgb(180, 180, 180) !important; */
+  /* color: #666666; */
+  color:#333333;
+  font-family: "Roboto" !important;
+}
+.nurse_view_colon {
+  margin-right: 15px;
+}
+.nurse_view_values {
+  color:#33333;
+  font-family:"Roboto"!important;
+}
+
+.address_edit{
+  font-size: 13px;
+}
+.nurse_view_cancel {
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+}
+.nurse_modelcancel {
+  font-family: "Roboto" !important;
+  font-size: 1.5rem !important;
+  background-color: rgb(254, 236, 236) !important;
+  border: 1px solid rgb(249, 168, 168) !important;
+  color: rgb(247, 89, 89) !important;
+}
+.nurse_view_cancel:focus {
+  outline: none !important;
+}
+.nurse_view_image_grid {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.close_icon {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+/*@media only screen and (max-width: 1000px){
+    .nurse_view_cancel{
+        width: 80px !important;
+
+    }
+    .nurse_view_cancel{
+
+        margin-right: 10px !important;
+        margin-bottom:10px !important;
+        }
+        .nurse_view_name_wrap{
+            margin-top: 3px;
+            position: relative;
+        }
+        .nurse_view_qualitiy{
+            width: 30%;
+        }
+       
+        .nurse_view_grid_container{
+            min-height: 400px !important;
+        }
+        .nurse_view_subheader{
+            width: 100%;
+            margin-top: 5px;
+        
+        }
+       
+}*/
+@media only screen and (max-width: 768px) {
+  .nurse_view_image_grid {
+    justify-content: center;
+  }
+  .generalduties_details {
+    width: 100%;
+    border: 1px solid grey;
+    border-bottom: none;
+    padding: 0px;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+  }
+  .nurse_divider_container {
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .nurse_view_image_grid {
+    justify-content: center;
+  }
+  .generalduties_details {
+    width: 100%;
+    border: 1px solid grey;
+    border-bottom: none;
+    border-left: none;
+    padding: 0px;
+    border-right: none;
+    margin-top: 20px;
+  }
+  .nurse_divider_container {
+    padding-right: 0px;
+  }
+}

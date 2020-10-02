@@ -1,0 +1,87 @@
+.title_dashboard {
+  width: 100%;
+  padding: 10px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 5px 0px 0px;
+  height: 60px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title_dashboard .formdiv {
+  display: flex;
+  align-items: baseline;
+}
+.title_dashboard .formdiv .labeltxt {
+  /* width: 45%; */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.title_dashboard .formdiv .selectbox {
+  width: 50% !important;
+}
+.title_header {
+  font-size: 18px;
+  color: #86b149;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: "Roboto";
+}
+.today_date {
+  color: rgba(0, 0, 0, 0.87) !important;
+  margin-right: 15px !important;
+}
+
+.clinic_group_details .MuiButton-root {
+  text-transform:none !important;
+  border-radius: 0px !important;
+  font-size: 12px !important;
+  padding:5px 15px !important;
+  border: none !important;
+  box-shadow: 0px 2px 5px #00000033 !important;
+} 
+.clinic_details:focus{
+  background-color:#0B51C5 !important;
+  }
+
+.clinic_details
+{
+  color:white !important;
+  background-color:#468DF0!important;
+  width:120px !important;  
+  height:42px !important;
+  font-family: "Roboto" !important;
+  
+}
+
+
+  .icon_head{
+    display: flex;
+    padding-right: 3px;
+  }
+  @media screen and (max-width:990px)
+ {
+  .mr-2 {
+		font-size: 12px;
+  }
+  
+ }
+
+ 
+/* toaster */
+
+.ant-notification-notice-closable{
+  padding: 14px 5px 0px 16px;
+}
+.ant-notification-notice-description{
+    position: relative;
+    bottom: 17px;
+    margin-right: 40px;
+}
+
+.MuiDialog-paperScrollPaper{
+  overflow-y: scroll !important;
+}

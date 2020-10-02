@@ -1,0 +1,73 @@
+.cell_eye {
+  padding-left: 0px !important;
+}
+
+.nurse_dash_sidehead {
+  font-family: "Roboto" !important;
+  font-size: 1.5rem !important;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.page_button_container {
+  padding-bottom: 10px
+}
+
+.lab_dash_bottom_buttons {
+  margin-left: 20px !important;
+  font-size: 1rem !important;
+  box-shadow: 11px 23px 16px -30px black;
+}
+
+.lab_dash_bottom1 {
+  color: #ec3a32 !important;
+  border: 1px solid !important;
+  font-size: 1.75rem !important;
+  box-shadow: 0px 0px 2px #ec3a32;
+  text-transform: none !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.lab_dash_bottom1 .MuiButton-label {
+  padding: 0px 18px;
+  font-size: 18px;
+}
+.lab_dash_bottom2 {
+  color: #eb1e68 !important;
+  border: 1px solid !important;
+  font-size: 1.75rem !important;
+  box-shadow: 0px 0px 2px #eb1e68;
+  text-transform: none !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.lab_dash_bottom2 .MuiButton-label {
+  padding: 0px 18px;
+  font-size: 18px;
+}
+.lab_dash_bottom3 {
+  color: #a42ab8 !important;
+  border: 1px solid !important;
+  font-size: 1.75rem !important;
+  box-shadow: 0px 0px 2px #a42ab8;
+  text-transform: none !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.lab_dash_bottom3 .MuiButton-label {
+  padding: 0px 18px;
+  font-size: 18px;
+}
+.todays_appointments_text {
+  font-weight: 700;
+  margin-right: 5px;
+  color: black;
+}
+@media only screen and (max-width: 1040px) {
+  .lab_dash_bottom3 {
+    font-size: 1.25rem !important;
+  }
+  .lab_dash_bottom1 {
+    font-size: 1.25rem !important;
+  }
+  .lab_dash_bottom2 {
+    font-size: 1.25rem !important;
+  }
+}

@@ -1,0 +1,120 @@
+
+.addtrainees_details {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-between;
+}
+.details_mode {
+  color: #ccc;
+  font-family: "Roboto";
+  font-size: 2rem !important;
+  margin-bottom: 0rem !important;
+}
+.age_details {
+  color: #ccc;
+  font-size: 12px;
+  margin-bottom: 0px !important;
+  display: inline-flex;
+  width: 100%;
+}
+.package_details {
+  display: flex;
+  color: #ccc;
+  font-size: 15px;
+  width: 50%;
+  font-family: "Roboto";
+  justify-content: space-between;
+}
+
+.trainee_image_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.trainee_image {
+  width: 100%;
+  height: 100%;
+}
+.trainee_image_div {
+  width: 100%;
+  height: auto;
+}
+.divider {
+  padding: 20px !important;
+}
+.MuiDivider-root {
+  height: 2px !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+.addtrainee_gridcontainer {
+  padding: 20px;
+}
+.package_details_list {
+  width: 100%;
+  display: inline-flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  color: black;
+  font-family: "Roboto" !important;
+  font-size: 11px;
+}
+.package_details_container {
+  display: flex;
+  width: 100%;
+  font-family: "Roboto";
+}
+/*  .MuiDialogTitle-root 
+{
+   padding:none !important;
+}*/
+
+.trainee_detail {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.working_hour {
+  font-size: 13px;
+  padding-bottom: 5%;
+
+  padding-top: 5%;
+}
+.working_hour_detail {
+  font-size: 11px;
+  width: 100%;
+}
+.working_time_detail {
+  padding-left: 10%;
+  width: 100%;
+}
+
+.working_detail {
+  display: inline-flex;
+  width: 100%;
+}
+.icon_edit {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.icon {
+  font-size: 2.25rem !important;
+  fill: green !important;
+  margin-bottom: 3%;
+}
+.total {
+  padding: 3%;
+  width: 100%;
+}
+
+/* .trainee_popup_details {
+  max-width: 700px;
+} */
+
+
+.trainee_text {
+  padding-left: 3%;
+  width: 100%;
+}

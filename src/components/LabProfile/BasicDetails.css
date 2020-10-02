@@ -1,0 +1,43 @@
+.basic_detailsmodal .formdiv {
+  padding: 5px !important;
+}
+.basic_detailsmodal .formdiv .labeltxt {
+  padding-bottom: 0px !important;
+}
+.basic_detailsmodal .formdiv {
+  margin-bottom: 10px !important;
+}
+.basic_address_details {
+  width: 80%;
+  padding: 0px 20px;
+}
+.tag_closeicons_container .ant-tag .anticon-close {
+  font-size: 1rem !important;
+  position: relative;
+  top: -2px;
+  padding: 2px;
+  color: #f5222d !important;
+}
+.tag_closeicons_container .ant-tag {
+  background-color: #03bed5 !important;
+  color: #fff !important;
+  padding: 5px !important;
+  border-radius: 3px !important;
+  border: none !important;
+  font-family: "Roboto" !important;
+}
+.tag_closeicons_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+  left: 4px;
+}
+.userbuttons_container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 20px;
+}

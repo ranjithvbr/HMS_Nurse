@@ -1,0 +1,233 @@
+
+
+.pro_headers{
+  display:flex;
+  align-items: center;
+}
+.profile_popup_details .MuiDialog-paperWidthSm {
+  width: 700px !important;
+}
+.profile_popup_details {
+  font-family: "Roboto";
+}
+.addtrainees_details {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-between;
+}
+.prof_edit .MuiDialogTitle-root{
+  border-bottom: 0px;
+  box-shadow: none ;
+}
+.details_mode {
+  color: #ccc;
+  font-family: "Roboto";
+  font-size: 2rem !important;
+  margin-bottom: 0rem !important;
+}
+.age_details {
+  color: #ccc;
+  font-size: 1.25rem;
+  margin-bottom: 0px !important;
+  display: inline-flex;
+  width: 100%;
+}
+.package_details {
+  display: flex;
+  color: #ccc;
+  font-size: 15px;
+  width: 50%;
+  font-family: "Roboto";
+  justify-content: space-between;
+}
+.avatar-uploader img{
+  height: 100px;
+  width: 100px;
+}
+.package_cancel_details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.package-cancel_button {
+  color: red !important;
+  border: 1px solid red !important;
+  font-size: 20px !important;
+  font-family: "Roboto" !important;
+
+  background-color: #f5dcead1 !important;
+}
+.profile_imageuser_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.profile_imageuser {
+  width: 100%;
+  height: 100%;
+}
+.profile_imageuser_div {
+  width: 100%;
+  height: auto;
+}
+.divider {
+  padding: 20px !important;
+}
+.addprofile_gridcontainer {
+  padding: 20px;
+}
+.package_details_list {
+  width: 80%;
+  display: inline-flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  color: black;
+  font-family: "Roboto" !important;
+  font-size: 1.25px;
+}
+.package_details_container {
+  display: flex;
+  width: 100%;
+  font-family: "Roboto";
+}
+
+.profile_detail {
+  padding-bottom: 1%;
+}
+
+.working_hour {
+  font-size: 13px;
+  padding-bottom: 5%;
+
+  padding-top: 5%;
+}
+.working_hour_detail {
+  font-size: 11px;
+  width: 100%;
+}
+.working_time_detail {
+  padding-left: 10%;
+  width: 100%;
+}
+
+.working_detail {
+  display: inline-flex;
+  width: 100%;
+}
+.icon_edit {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.area_services {
+  font-size: 1.5rem !important;
+  color: black;
+  margin-bottom: 7px !important;
+}
+.areaservice_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #ccc;
+  width: 80%;
+}
+.icon {
+  font-size: 2.25rem !important;
+  fill: green !important;
+  margin-bottom: 3%;
+}
+.icon_groups {
+  font-size: 2.25rem !important;
+  fill: #333 !important;
+}
+.total {
+  padding: 3%;
+  width: 100%;
+}
+
+/* .trainee_popup_details {
+  max-width: 700px;
+} */
+.border_para {
+  border: 1px solid #ccc;
+  height: 20px;
+}
+
+/* .trainee_popup_details .MuiDialog-paperWidthSm {
+  max-width: 680px !important;
+} */
+.profile_nursecontainer {
+  font-family: "Roboto" !important;
+}
+.profile_text {
+  padding-left: 3%;
+  width: 100%;
+  position: relative;
+  color: black;
+  /* top: 3px; */
+  top:13px
+}
+.profilebackground{
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+box-shadow: 0px 3px 6px #00000029 !important;
+border-radius: 5px !important;
+}
+.profilepaper_container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top:-222px;
+  position: relative;
+}
+.profileback_first{
+  background: transparent linear-gradient(90deg, #A5CF64 0%, #CDE6A5 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width:100%;
+  height:50%;
+  color:#FFFF;
+  font-size: 18px;
+  font-weight: 600;
+  padding:25px 0px 0px 20px;
+}
+/* spinner css */
+.profile_spinner_align{
+  top:150px !important;
+  height:50px !important;
+}
+.profile_spinner_align .ant-spin-dot-item{
+  background-color:  #66a208 !important;
+}
+.profile_background{
+  height:650px; 
+}
+.profile_backchange{
+  width:50% !important;
+  height:350px; 
+}
+.pic_align{
+  position: absolute;
+  bottom: 0px;
+  right: 7px;
+  top: 33px;
+  background: #d9d9d9;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+}
+.add_icon{
+  font-size: 1rem !important;
+  color:#bfbfbf  !important;
+}
+.basic_head{
+  color: #86b149;
+  margin-left: 20px;
+  font-size: 22px;
+  font-family: "Roboto" !important;
+}
+.profile_container .ant-upload{
+  position: relative;
+}

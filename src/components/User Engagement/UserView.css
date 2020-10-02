@@ -1,0 +1,25 @@
+.checkbox .MuiSvgIcon-root {
+  font-size: 3rem !important;
+}
+.user_buttons_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.5rem !important;
+}
+.cancel_button {
+  background-color: rgb(201, 201, 201) !important;
+  font-size: 1.25rem !important;
+  font-family: "Roboto" !important;
+}
+.Upload_button {
+  background-color: rgb(38, 128, 235) !important;
+  font-size: 1.25rem !important;
+  font-family: "Roboto" !important;
+}
+.checkbox_container .PrivateSwitchBase-root-381 {
+  padding: 0px !important;
+}
+.User_viewnurse .formdiv .labeltxt {
+  padding-bottom: 0px !important;
+}

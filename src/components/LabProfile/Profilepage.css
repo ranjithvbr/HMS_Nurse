@@ -1,0 +1,159 @@
+/*.MuiDialogTitle-root 
+{
+	padding:0px !important;
+}*/
+.profile_popup_details .MuiDialog-paperWidthSm {
+  width: 700px !important;
+}
+.profile_popup_details {
+  font-family: "Roboto";
+}
+.addtrainees_details {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-between;
+}
+.details_mode {
+  color: #ccc;
+  font-family: "Roboto";
+  font-size: 2rem !important;
+  margin-bottom: 0rem !important;
+}
+.age_details {
+  color: #ccc;
+  font-size: 1.25rem;
+  margin-bottom: 0px !important;
+  display: inline-flex;
+  width: 100%;
+}
+.package_details {
+  display: flex;
+  color: #ccc;
+  font-size: 15px;
+  width: 50%;
+  font-family: "Roboto";
+  justify-content: space-between;
+}
+.package_cancel_details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.package-cancel_button {
+  color: red !important;
+  border: 1px solid red !important;
+  font-size: 20px !important;
+  font-family: "Roboto" !important;
+
+  background-color: #f5dcead1 !important;
+}
+.profile_imageuser_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.profile_imageuser {
+  width: 100%;
+  height: 100%;
+}
+.profile_imageuser_div {
+  width: 100%;
+  height: auto;
+}
+.divider {
+  padding: 20px !important;
+}
+.addprofile_gridcontainer {
+  padding: 20px;
+}
+.package_details_list {
+  width: 80%;
+  display: inline-flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  color: black;
+  font-family: "Roboto" !important;
+  font-size: 1.25px;
+}
+.package_details_container {
+  display: flex;
+  width: 100%;
+  font-family: "Roboto";
+}
+
+.profile_detail {
+  padding-bottom: 1%;
+}
+
+.working_hour {
+  font-size: 13px;
+  /* padding-bottom: 5%;
+  padding-top: 5%; */
+}
+.working_hour_detail {
+  font-size: 11px;
+  width: 100%;
+}
+.working_time_detail {
+  padding-left: 10%;
+  width: 100%;
+}
+
+.working_detail {
+  display: inline-flex;
+  width: 100%;
+}
+.icon_edit {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.area_services {
+  font-size: 1.5rem !important;
+  color: black;
+  margin-bottom: 7px !important;
+}
+.areaservice_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #ccc;
+  width: 80%;
+}
+.icon {
+  font-size: 2.25rem !important;
+  fill: green !important;
+  margin-bottom: 3%;
+}
+.icon_groups {
+  font-size: 2.25rem !important;
+  fill: #333 !important;
+}
+.total {
+  padding: 3%;
+  width: 100%;
+}
+
+/* .trainee_popup_details {
+  max-width: 700px;
+} */
+.border_para {
+  border: 1px solid #ccc;
+  height: 20px;
+}
+
+/* .trainee_popup_details .MuiDialog-paperWidthSm {
+  max-width: 680px !important;
+} */
+.profile_nursecontainer {
+  font-family: "Roboto" !important;
+}
+.profile_text {
+  padding-left: 3%;
+  width: 100%;
+  position: relative;
+  /* top: 13px; */
+  top:13px
+}

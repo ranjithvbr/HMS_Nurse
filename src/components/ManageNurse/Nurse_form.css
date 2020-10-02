@@ -1,0 +1,185 @@
+.User-inputs {
+  margin-bottom: 15px;
+  width: 115%;
+}
+.gender_edit{
+  width: 115%;
+}
+.users-form {
+  padding-left: 12px !important;
+}
+.user-avatar-upload {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 2px !important;
+}
+.Usergrp-Create {
+  color: #fff !important;
+  font-size: 1.25rem !important;
+  margin-left: 10px !important;
+  background-color: rgb(38, 128, 235) !important;
+  font-family: "Roboto" !important;
+}
+.Usergrp-Cancel {
+  color: rgb(42, 40, 40) !important;
+  font-size: 1.25rem !important;
+  margin-right: 10px !important;
+  background-color: rgb(201, 201, 201) !important;
+  font-family: "Roboto" !important;
+}
+.users-form .ant-upload.ant-upload-select-picture-card {
+  width: 120px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  height: 120px !important;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12) !important;
+}
+.user_datepicker {
+  width: 100%;
+  border: none;
+  outline: 0;
+  box-shadow: 0 0 1.5px 0px #ccc;
+}
+.upload-icon {
+  font-size: 55px !important;
+  color: #86b149;
+  margin-left: 15px !important;
+}
+.dateofbirth {
+  color: #333;
+  display: block;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.users-form .ant-input {
+  border-radius: 0px !important;
+  border: none !important;
+  font-family: "Roboto" !important;
+}
+
+.users-form .formdiv .brdrcls {
+  font-size: 1.5rem !important;
+  font-family: "Roboto" !important;
+}
+img.upload-img-circle {
+  width: 120px !important;
+  border-radius: 50% !important;
+}
+.cancel-create-button1 {
+  display: flex;
+  /* height: 15vh; */
+  align-items: flex-end;
+  justify-content: center;
+}
+.Textarea_grid {
+  padding: 0px !important;
+}
+.cancel-create-button1 {
+  margin-left: 25px;
+}
+.users-form .formdiv .brdrcls {
+  padding: 6px !important;
+  font-family: "Roboto" !important;
+  border: 1px solid #ccc !important;
+  /* color:#333; */
+}
+.users-form .formdiv{
+  margin-bottom: 10px;
+}
+.buttons_container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 98%;
+}
+.users-form .formdiv .labeltxt {
+  padding-bottom: 0px !important;
+  font-size: 1.25rem !important;
+  /* color:rgb(160, 160, 160) !important; */
+}
+.users-form .formdiv .selectbox .ant-select-selection--single {
+  padding: 2px !important;
+}
+.items_container {
+  padding: 5px;
+  /* margin-left: 20px; */
+
+}
+
+.chkbox_text_edit{
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.manage_active_font{
+  font-size: 15px;
+
+}
+.nurse_details_nation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.duty_hourmain_container {
+  border: 1px solid #ccc;
+  display: flex;
+  border-radius: 2px;
+  justify-content: space-between;
+  /* margin-left: 20px; */
+  width: 115%;
+  padding: 18px;
+}
+.duty_hoursdiv {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  padding: 10px;
+}
+.duty_hour_container {
+  width: 100%;
+  padding: 11px;
+}
+.divider_border {
+  border-left: 1px solid #ccc;
+  margin: 3px 5px 0px 0px;
+}
+.skills .formdiv .brdrcls {
+  height: 65px !important;
+}
+.duty_header {
+  font-size: 1.5rem !important;
+}
+
+.user_buttons_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.5rem !important;
+}
+.cancel_button {
+  background-color: rgb(201, 201, 201) !important;
+  font-size: 1.25rem !important;
+  font-family: "Roboto" !important;
+}
+.Upload_button {
+  background-color: rgb(38, 128, 235) !important;
+  font-size: 1.25rem !important;
+  font-family: "Roboto" !important;
+}
+@media only screen and (max-width: 959px) {
+  .cancel-create-button1 {
+    margin-left: 0px;
+  }
+}
+.User-upload-container{
+  display: block;
+}
+.User-upload-container .MuiGrid-grid-xs-2 {
+  max-width: 0% !important;
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/Font/Roboto-Regular.ttf") format("truetype");
+}
+body {
+  font-family: "Roboto";
+}
+
+.ant-select-selection:active {
+  -webkit-box-shadow: none !important;
+  box-shadow: 0px !important;
+}
+.ant-select-open .ant-select-selection {
+  -webkit-box-shadow: none !important;
+}
+.ant-btn:hover {
+  border-color: none !important;
+}
+.ant-btn:hover .ant-btn:focus {
+  color: none !important;
+  border-color: none !important;
+}
+.ant-btn:active {
+  border-color: none !important;
+  color: none !important;
+}
+.anticon-download{
+  display: none;
+}
+
+/*message*/
+.ant-message-notice {
+  margin-top: 65px !important;
+}
+
+.ant-message .anticon {
+  top: -2px !important;
+}
